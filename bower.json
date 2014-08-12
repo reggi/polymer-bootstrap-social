@@ -1,0 +1,19 @@
+{
+  "name": "polymer-bootstrap-social",
+  "version": "0.0.0",
+  "authors": [
+    "reggi <thomas@reggi.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-social": "~4.6.0",
+    "font-awesome": "~4.1.0"
+  }
+}
