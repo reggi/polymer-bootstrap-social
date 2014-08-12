@@ -14,8 +14,6 @@
   ],
   "dependencies": {
     "bootstrap-social": "~4.6.0",
-    "font-awesome": "~4.1.0",
-    "polymer-github-ribbon": "reggi/polymer-github-ribbon",
-    "polymer-bootstrap-social": "reggi/polymer-bootstrap-social"
+    "font-awesome": "~4.1.0"
   }
 }

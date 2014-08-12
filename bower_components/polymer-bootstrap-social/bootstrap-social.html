@@ -1,0 +1,26 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<polymer-element name="bootstrap-social" attributes="service size type href">
+<template>
+  <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.css" shim-shadowdom>
+  <link rel="stylesheet" href="../font-awesome/css/font-awesome.css" shim-shadowdom>
+  <link rel="stylesheet" href="../bootstrap-social/bootstrap-social.css" shim-shadowdom>
+  <a class="btn btn-block btn-{{ type }} btn-{{ size }} btn-{{ service }}" href="{{ href }}">
+    <i class="fa fa-{{ service }}"></i> {{ text }}
+  </a>
+</template>
+<script>
+  Polymer('bootstrap-social', {
+    ready:function(){
+      if(this.querySelector('a')){
+        this.href = this.querySelector('a').href;
+        this.text = this.querySelector('a').textContent; 
+      }else{
+        this.text = this.textContent;
+      }
+      if (!this.type) this.type = "social";
+      if (this.type == "icon") this.type = "social-icon";
+    }
+  });
+</script>
+</polymer-element>

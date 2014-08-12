@@ -1,0 +1,29 @@
+{
+  "name": "polymer-bootstrap-social",
+  "authors": [
+    "reggi <thomas@reggi.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-social": "~4.6.0",
+    "font-awesome": "~4.1.0"
+  },
+  "homepage": "https://github.com/reggi/polymer-bootstrap-social",
+  "_release": "369bc7fa14",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "369bc7fa14fdf0a9afd54fb94171304b4eb35010"
+  },
+  "_source": "git://github.com/reggi/polymer-bootstrap-social.git",
+  "_target": "*",
+  "_originalSource": "reggi/polymer-bootstrap-social",
+  "_direct": true
+}
